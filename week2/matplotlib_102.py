@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('./src/test01.jpg')
+img = cv2.imread('../src/test01.jpg')
 b, g, r = cv2.split(img)
 img2 = cv2.merge([r, g, b])
 

@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # Load an color image in grayscale
-img = cv2.imread('./src/test01.jpg', 0)
+img = cv2.imread('../src/test01.jpg', 0)
 
 # If Load an image success would print out a metric
 print(img)

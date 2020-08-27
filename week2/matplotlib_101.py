@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
-img = cv2.imread('./src/test01.jpg',0)
+img = cv2.imread('../src/test01.jpg',0)
 #interpolation => คือการเติมเต็มสี เวลาเราขยายภาพ ถ้าไม่ใส่จะทำให้ภาพมัน เป็น block ไม่สวย
 plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
 plt.xticks([]), plt.yticks([])
